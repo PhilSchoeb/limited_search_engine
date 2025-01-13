@@ -29,8 +29,11 @@ Recherche :
 ### DÉTAILS SUR L'INDEXATION :
 
 Soient les trois fichiers : fichier1.txt, fichier2.txt et fichier3.txt. Supposons que ces fichiers contiennent les mots suivants :
+
 fichier1.txt : A A A B B C.
+
 fichier2.txt : A B B B C C.
+
 fichier3.txt : A A B C C C.
 
 L'indexation construit deux structures : index et index inversé. 
@@ -40,8 +43,11 @@ Liste chainée verticale :
 fichier1.txt -> fichier2.txt -> fichier3.txt
 
 Listes chainées horizontales : 
+
 fichier1.txt -> (A : 3) -> (B : 2) -> (C : 1)
+
 fichier2.txt -> (A : 1) -> (B : 3) -> (C : 2)
+
 fichier3.txt -> (A : 2) -> (B : 1) -> (C : 3)
 
 Important de noter que les listes chainées horizontales partent toutes de la liste chainée verticale.
@@ -52,8 +58,11 @@ Liste chainée verticale :
 A -> B -> C
 
 Listes chainées horizontales :
+
 A -> (fichier1.txt : 3) -> (fichier2.txt : 1) -> (fichier3.txt : 2)
+
 B -> (fichier1.txt : 2) -> (fichier2.txt : 3) -> (fichier3.txt : 1)
+
 C -> (fichier1.txt : 1) -> (fichier2.txt : 2) -> (fichier3.txt : 3)
 
 Ici aussi, les listes chainées horizontales partent toutes de la liste chainée verticale.
