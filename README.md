@@ -1,6 +1,7 @@
-Ce programme est un prototype fonctionnel d'engin de recherche pour le cours IFT1025 à l'UdeM.
+# Implémentation d'un engin de recherche en Java
+Ce programme est un prototype fonctionnel d'engin de recherche dans le cadre du cours de programmation 2 (IFT1025) à l'Université de Montréal.
 
-GUIDE D'UTILISATION :
+### GUIDE D'UTILISATION :
 
 D'abord, il faut charger les différents fichiers qui formeront les résultats de recherche. Pour ce faire, cliquer sur Sélectionner, puis 
 Fichier ou Directory dépendamment de se que vous voulez charger.
@@ -15,7 +16,7 @@ important, plus un fichier est au début de la liste, plus haut est son score pa
 la forme suivante : (texte.txt : k) où texte.txt est le nom d'un fichier et k est le nombre de fois qu'un terme de votre recherche
 apparait dans ce fichier.
 
-LIMITATIONS DU PROGRAMME :
+### LIMITATIONS DU PROGRAMME :
 
 Sélection des fichiers :
 - Il n'est pas possible d'enlever un fichier de la sélection.
@@ -25,7 +26,7 @@ Recherche :
 - La recherche tient compte des majuscules : "Allo" est différent de "allo".
 - La recherche tient seulement compte des mots uniquement composés des 26 lettres standards (pas de caractères spéciaux).
 
-DÉTAILS SUR L'INDEXATION :
+### DÉTAILS SUR L'INDEXATION :
 
 Soient les trois fichiers : fichier1.txt, fichier2.txt et fichier3.txt. Supposons que ces fichiers contiennent les mots suivants :
 fichier1.txt : A A A B B C.
